@@ -30,7 +30,8 @@ Navigate to the Field Restrictions lesson.
 
 - Look at the body of the request. It will contain the parameters for the fields. You will notice they contain default or valid values.
 
-- Tamper with the parameters. Since the server is trusting the client, you can change the values to anything you want. Change the body to include invalid data: **** Original Example: select=Option1&radio=Option1&checkbox=on&shortInput=12345&readOnlyInput=change ***
+- Tamper with the parameters. Since the server is trusting the client, you can change the values to anything you want. Change the body to include invalid data:
+   **** Original Example: select=Option1&radio=Option1&checkbox=on&shortInput=12345&readOnlyInput=change ****
 
 ** Tampered Example:
 
