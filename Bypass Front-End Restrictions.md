@@ -1,6 +1,6 @@
 WebGoat Write-Up: Bypass Front-end Restrictions
 
-** Overview
+** Overview: 
   Client-side validation (validation done in the browser using HTML or JavaScript) is a common method used to guide users and ensure data is formatted correctly before it is sent to the server. However, because the client (the user's browser) has complete control over the environment, any security checks performed solely on the front-end can be easily bypassed.
 
 ** Objective: The goal of these exercises is to intercept HTTP requests, manipulate the data to bypass client-side restrictions, and send the altered request to the server. Applications must always validate input on the server-side.
