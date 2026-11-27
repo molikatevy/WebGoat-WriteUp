@@ -10,9 +10,7 @@ WebGoat Write-Up: Bypass Front-end Restrictions
 - An intercepting proxy tool (e.g., Burp Suite, OWASP ZAP, or the built-in WebGoat browser tools).
 
 ** Exercise 1: Field Restrictions
-  * Task
-    Send a request that bypasses restrictions on all five input fields:
-
+  * Task: Send a request that bypasses restrictions on all five input fields:
      . Dropdown (Select)
      . Radio buttons
      . Checkbox
