@@ -6,8 +6,8 @@ WebGoat Write-Up: Bypass Front-end Restrictions
 ** Objective: The goal of these exercises is to intercept HTTP requests, manipulate the data to bypass client-side restrictions, and send the altered request to the server. Applications must always validate input on the server-side.
 
 ** Tools Required:
-A web browser (Chrome/Firefox).
-An intercepting proxy tool (e.g., Burp Suite, OWASP ZAP, or the built-in WebGoat browser tools).
+- A web browser (Chrome/Firefox).
+- An intercepting proxy tool (e.g., Burp Suite, OWASP ZAP, or the built-in WebGoat browser tools).
 
 ** Exercise 1: Field Restrictions
   * Task
@@ -20,6 +20,7 @@ An intercepting proxy tool (e.g., Burp Suite, OWASP ZAP, or the built-in WebGoat
      . Read-only input field
 
 ** Steps to Solve
+
 Navigate to the Field Restrictions lesson.
 
 - Ensure your proxy (like Burp Suite) is configured to intercept traffic between your browser and the WebGoat application.
