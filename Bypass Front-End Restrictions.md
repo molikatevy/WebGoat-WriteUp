@@ -11,11 +11,11 @@ WebGoat Write-Up: Bypass Front-end Restrictions
 
 ** Exercise 1: Field Restrictions
   * Task: Send a request that bypasses restrictions on all five input fields:
-     . Dropdown (Select)
-     . Radio buttons
-     . Checkbox
-     . Input restricted to 5 characters
-     . Read-only input field
+    - Dropdown (Select)
+    - Radio buttons
+    - Checkbox
+    - Input restricted to 5 characters
+    - Read-only input field
 
 ** Steps to Solve
 
