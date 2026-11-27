@@ -5,8 +5,7 @@ WebGoat Write-Up: Client Side Filtering
 ** Goal: Exploit extraneous information returned by the server to access data you are not supposed to see.
 
 ** Exercise 1: Salary Manager
-- Scenario: You are logged in as Moe Stooge (CSO). You can view the salaries of other employees, but you should not be able to see the CEO's (Neville Bartholomew) salary. The application relies on hiding the CEO from the dropdown menu instead of securing the data on the server.
-
+* Scenario: You are logged in as Moe Stooge (CSO). You can view the salaries of other employees, but you should not be able to see the CEO's (Neville Bartholomew) salary. The application relies on hiding the CEO from the dropdown menu instead of securing the data on the server.
 * Task
  - Find the CEO's salary and submit it.
  (Based on WebGoat defaults, the answer is usually 450000, but let's find it properly).
@@ -18,13 +17,9 @@ WebGoat Write-Up: Client Side Filtering
  - Search for #hiddenEmployeeRecords (as suggested in your screenshot) or simply search for "Neville".
  - You will find a hidden HTML element containing a block of JSON or HTML data representing the employee database.
  - Look through this code block to find the data tied to "Neville Bartholomew" and note his Salary.
-
  ** Return to the WebGoat page and type the salary amount into the "What is Neville Bartholomew's salary?" box, then click Submit Answer.**
-
 ** Exercise 2: No need to pay if you know the code... (Hidden Checkout Code)
-
-- Scenario: You are looking at a product page (Samsung Galaxy S8). You want to buy it without paying. The application requires a "Checkout Code".
-
+  * Scenario: You are looking at a product page (Samsung Galaxy S8). You want to buy it without paying. The application requires a "Checkout Code".
 * Task
  - Find the hidden checkout code to buy the phone for free.
  - Steps to Solve (Using Browser Developer Tools)
